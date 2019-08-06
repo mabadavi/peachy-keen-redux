@@ -1,0 +1,63 @@
+body{
+  background-color:#f0ecce;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'MedievalSharp', cursive;
+}
+.button-small {
+  border: none;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 10px;
+  font-family: 'Crimson Pro', serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'MedievalSharp', cursive;
+}
+p,ul,a{
+  font-family: 'Crimson Pro', serif;
+  font-size:18px;
+}
+p.firstpara{
+  display:inline;
+}
+h1.firstletter{
+  color:#f0ecce;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin:1px;
+  display: inline;
+}
+.book-bg{
+    background-image: url('../assets/book.png');
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 675px;
+    background-size: 100% 100%;
+    margin: auto;
+
+}
+.page1{
+  width: 350px;
+  float: left;
+  margin-top:50px;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.page2{
+  width: 350px;
+  float: right;
+  margin-top:150px;
+  padding-top: 60px;
+  padding-right: 90px;
+}
