@@ -28,10 +28,10 @@ p,ul,a{
   font-family: 'Crimson Pro', serif;
   font-size:18px;
 }
-p.firstpara{
+p#firstpara{
   display:inline;
 }
-h1.firstletter{
+h1#firstletter{
   color:#f0ecce;
   padding-right: 5px;
   padding-left: 5px;
